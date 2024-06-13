@@ -9,7 +9,6 @@
 
 - **Feedback Form:** Allows users to submit their name and feedback.
 - **Feedback List:** Displays all submitted feedback.
-- **Error Handling:** Manages errors for invalid input or failed submissions.
 - **Responsive Design:** Ensures usability across different devices.
 
 ## Components and Modules
