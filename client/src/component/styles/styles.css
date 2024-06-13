@@ -1,0 +1,28 @@
+.primary-color{
+    color:rgb(221, 163, 255)
+}
+
+.secondary-color{
+    color: rgb(189, 189, 189);
+}
+
+.button{
+    border-color: rgb(221, 163, 255);
+    color: rgb(221, 163, 255);
+    background-color: black;
+    font-size: 20px;
+}
+
+.button:hover{
+    background-color: rgb(221, 163, 255);
+    color:black;
+}
+
+.button:active{
+    background-color: rgb(204, 117, 255);
+    color:black;
+}
+
+.card-border-color{
+    border-color: rgb(204, 117, 255);
+}

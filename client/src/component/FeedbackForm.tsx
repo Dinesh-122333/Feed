@@ -17,9 +17,16 @@ const FeedbackForm: React.FC = () => {
     };
 
     return (
+        <>
+        <hr style={{ width: '100%', margin: '20px auto', border: '1px solid  rgb(204, 117, 255)' }} />  
+        <div className="d-flex justify-content-center p-5 primary-color">
+            <h1>
+                Form
+            </h1>
+        </div>
         <form onSubmit={handleSubmit}>
             <div className="mb-3">
-                <label htmlFor="name" className="form-label">Name</label>
+                <label htmlFor="name" className="form-label secondary-color h6">Name</label>
                 <input 
                     type="text" 
                     className="form-control" 
@@ -30,7 +37,7 @@ const FeedbackForm: React.FC = () => {
                 />
             </div>
             <div className="mb-3">
-                <label htmlFor="feedback" className="form-label">Feedback</label>
+                <label htmlFor="feedback" className="form-label secondary-color h6">Feedback</label>
                 <textarea 
                     className="form-control" 
                     id="feedback" 
@@ -40,8 +47,13 @@ const FeedbackForm: React.FC = () => {
                     required 
                 ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <div className="d-flex justify-content-center p-5">
+            <button type="submit" className="button rounded-pill px-3 py-2 ">Submit</button>
+            </div>
+            
         </form>
+        </>
+        
     );
 };
 
